@@ -21,6 +21,10 @@
 		C5B4A18C190483EC0083EB0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B4A16E190483EC0083EB0C /* UIKit.framework */; };
 		C5B4A194190483EC0083EB0C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5B4A192190483EC0083EB0C /* InfoPlist.strings */; };
 		C5B4A196190483EC0083EB0C /* PanoramaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B4A195190483EC0083EB0C /* PanoramaTests.m */; };
+		C5B4A1A11904853C0083EB0C /* PanoramaView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B4A1A01904853C0083EB0C /* PanoramaView.m */; };
+		C5B4A1A3190485980083EB0C /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B4A1A2190485980083EB0C /* CoreMotion.framework */; };
+		C5B4A1A6190486220083EB0C /* UIScrollView+PanoramaIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B4A1A5190486220083EB0C /* UIScrollView+PanoramaIndicator.m */; };
+		C5B4A1A91904884D0083EB0C /* PanoramaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B4A1A81904884D0083EB0C /* PanoramaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,13 @@
 		C5B4A191190483EC0083EB0C /* PanoramaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PanoramaTests-Info.plist"; sourceTree = "<group>"; };
 		C5B4A193190483EC0083EB0C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C5B4A195190483EC0083EB0C /* PanoramaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanoramaTests.m; sourceTree = "<group>"; };
+		C5B4A19F1904853C0083EB0C /* PanoramaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PanoramaView.h; path = Panorama/PanoramaView.h; sourceTree = "<group>"; };
+		C5B4A1A01904853C0083EB0C /* PanoramaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PanoramaView.m; path = Panorama/PanoramaView.m; sourceTree = "<group>"; };
+		C5B4A1A2190485980083EB0C /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		C5B4A1A4190486220083EB0C /* UIScrollView+PanoramaIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+PanoramaIndicator.h"; path = "Panorama/UIScrollView+PanoramaIndicator.h"; sourceTree = "<group>"; };
+		C5B4A1A5190486220083EB0C /* UIScrollView+PanoramaIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+PanoramaIndicator.m"; path = "Panorama/UIScrollView+PanoramaIndicator.m"; sourceTree = "<group>"; };
+		C5B4A1A71904884D0083EB0C /* PanoramaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanoramaViewController.h; sourceTree = "<group>"; };
+		C5B4A1A81904884D0083EB0C /* PanoramaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanoramaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5B4A1A3190485980083EB0C /* CoreMotion.framework in Frameworks */,
 				C5B4A16D190483EC0083EB0C /* CoreGraphics.framework in Frameworks */,
 				C5B4A16F190483EC0083EB0C /* UIKit.framework in Frameworks */,
 				C5B4A16B190483EC0083EB0C /* Foundation.framework in Frameworks */,
@@ -82,6 +94,7 @@
 		C5B4A15E190483EB0083EB0C = {
 			isa = PBXGroup;
 			children = (
+				C5B4A1AA190489900083EB0C /* Panorama View */,
 				C5B4A170190483EC0083EB0C /* Panorama */,
 				C5B4A18F190483EC0083EB0C /* PanoramaTests */,
 				C5B4A169190483EC0083EB0C /* Frameworks */,
@@ -101,6 +114,7 @@
 		C5B4A169190483EC0083EB0C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C5B4A1A2190485980083EB0C /* CoreMotion.framework */,
 				C5B4A16A190483EC0083EB0C /* Foundation.framework */,
 				C5B4A16C190483EC0083EB0C /* CoreGraphics.framework */,
 				C5B4A16E190483EC0083EB0C /* UIKit.framework */,
@@ -117,6 +131,8 @@
 				C5B4A17C190483EC0083EB0C /* Main.storyboard */,
 				C5B4A17F190483EC0083EB0C /* ViewController.h */,
 				C5B4A180190483EC0083EB0C /* ViewController.m */,
+				C5B4A1A71904884D0083EB0C /* PanoramaViewController.h */,
+				C5B4A1A81904884D0083EB0C /* PanoramaViewController.m */,
 				C5B4A182190483EC0083EB0C /* Images.xcassets */,
 				C5B4A171190483EC0083EB0C /* Supporting Files */,
 			);
@@ -150,6 +166,17 @@
 				C5B4A192190483EC0083EB0C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5B4A1AA190489900083EB0C /* Panorama View */ = {
+			isa = PBXGroup;
+			children = (
+				C5B4A19F1904853C0083EB0C /* PanoramaView.h */,
+				C5B4A1A01904853C0083EB0C /* PanoramaView.m */,
+				C5B4A1A4190486220083EB0C /* UIScrollView+PanoramaIndicator.h */,
+				C5B4A1A5190486220083EB0C /* UIScrollView+PanoramaIndicator.m */,
+			);
+			name = "Panorama View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +276,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5B4A1A6190486220083EB0C /* UIScrollView+PanoramaIndicator.m in Sources */,
 				C5B4A181190483EC0083EB0C /* ViewController.m in Sources */,
 				C5B4A17B190483EC0083EB0C /* AppDelegate.m in Sources */,
+				C5B4A1A91904884D0083EB0C /* PanoramaViewController.m in Sources */,
 				C5B4A177190483EC0083EB0C /* main.m in Sources */,
+				C5B4A1A11904853C0083EB0C /* PanoramaView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
