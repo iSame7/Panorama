@@ -14,10 +14,14 @@ Requirements
 Contact
 ----------
 
-Christian Roman
+Sameh Mabrouk
   
 [http://samehmabrouk.comyr.com][1]
 
 [mabrouksameh@gmail.com][2]
 
 [@same7mabrouk][3] 
+
+  [1]: http://samehmabrouk.comyr.com
+  [2]: mailto:mabrouksameh@gmail.com
+  [3]: http://twitter.com/same7mabrouk
