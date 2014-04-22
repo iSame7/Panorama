@@ -11,6 +11,10 @@ Requirements
 * ARC
 * Core Motion
 
+License
+
+Panorama is released under the MIT license. See LICENSE.
+
 Contact
 ----------
 
@@ -25,3 +29,4 @@ Sameh Mabrouk
   [1]: http://samehmabrouk.comyr.com
   [2]: mailto:mabrouksameh@gmail.com
   [3]: http://twitter.com/same7mabrouk
+
