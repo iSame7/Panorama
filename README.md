@@ -11,9 +11,9 @@ Requirements
 * ARC
 * Core Motion
 
-License
-
-Panorama is released under the MIT license. See LICENSE.
+## License
+Panorama is released under the MIT license. See
+[LICENSE](https://github.com/iSame7/Panorama/blob/master/LICENSE).
 
 Contact
 ----------
